@@ -1,0 +1,148 @@
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #cccccc);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+nav ul li a:hover {
+    color: #ffee00;
+    margin: 0%;
+    font-size: 20px;
+    text-shadow: 0 0 3px #ffcc00, 0 0 3px #ffcc00;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: large;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+p {
+    font-size: 25px;
+    text-align: justify;
+    color: black;
+    margin-top: 20px;
+    top: 7%;
+    
+    
+    
+
+}
+h1 {
+    
+    text-transform: uppercase;
+    
+    
+
+}
+.steve{
+    margin: 10px;
+    border: 5px solid black;
+
+}
+.steve2{
+    margin: 7px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+ .FORMULARIO{
+     margin: 100px 300px;
+
+
+
+
+ }
+
+ slider-frame {
+    box-sizing: border-box;
+width: 380px;
+    height: auto;
+margin:50px auto 0;
+overflow: hidden;
+}
+
+.slider-frame ul {
+display: flex;
+padding: 0;
+width: 400%;
+animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+width: 100%;
+list-style: none;
+}
+
+.slider-frame img {
+width: 100%;
+}
+
+@keyframes slide {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}
+
+.slider-frame{
+    width:600px;
+    height: 300px;
+    margin: 200px 200px;
+}
+img{
+   width: 350px;
+   height: 400px; 
+}
+.osva{
+    width: 40px;
+    height: 50px;
+}
+div{
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 40px;
+}
